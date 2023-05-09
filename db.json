@@ -1,0 +1,35 @@
+{
+  "clientes": [
+    {
+      "identificacion": "312312",
+      "nombre": "Maira",
+      "apellido": "Nova",
+      "telefono": "2132134214",
+      "fechaNacimiento": "2023-05-04",
+      "ciudadOrigen": "Medellin",
+      "correo": "e1dwqdqesdc21",
+      "id": 1
+    }
+  ],
+  "rutas": [
+    {
+      "nombreRuta": "ruta1",
+      "ciudadOrigen": "bucaramanga",
+      "ciudadDestino": "bogota",
+      "totalMillas": "10",
+      "valorMilla": "2000",
+      "id": 2
+    },
+    {
+      "nombreRuta": "ruta2",
+      "ciudadOrigen": "Medellin",
+      "ciudadDestino": "bogota",
+      "totalMillas": "200",
+      "valorMilla": "10000",
+      "id": 3
+    }
+  ],
+  "flota": [],
+  "personal": [],
+  "embarque": []
+}

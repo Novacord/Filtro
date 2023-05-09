@@ -1,0 +1,122 @@
+.navbar {
+    padding: 2rem;
+    background-color: #f5f6f7;   
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.navbar-nav {
+    align-items: center;
+}
+
+.nav-item {
+    padding: 0 2rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.LogoI {
+    width: 20rem;
+    padding-left: 2rem;
+}
+
+.seccion-oscura {
+    color: white;
+    background-color: rgb(0, 61, 110);
+}
+
+.seccion-texto {
+    font-size: 1.2rem;
+}
+
+.seccion-titulo {
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Rubik Dirt', cursive;
+    
+}
+
+.hero {
+    background-color: #f5f6f7;
+    min-height: 100px;
+    text-align: center;
+}
+
+.icono {
+    font-size: 100px;
+}
+
+.hero-imagen-desarollador {
+    width: 100px;
+    
+}
+
+.hero-principal h2 {
+    font-size: 1.5rem;
+    color: #615151;
+
+}
+
+.Equpo {
+    height: 200px;
+    padding: 10px;
+    align-items: center;
+}
+
+.Equpo1 {
+    height: 100%;
+    padding: 10px;
+    align-items: center;
+}
+
+.Equpo .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+.Equpo1 .contenedor {
+    max-width: 600px;
+    text-align: center;
+}
+
+.integrantes {
+    padding: 40px 0;
+    padding-bottom: 2rem;
+    border-radius: 50%;
+}
+
+.contenedor input {
+    margin: 0.5rem;
+}
+
+.modal-body input {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.boton {
+    border: none;
+    border-radius: 10px;
+    transition: all 0.5s ease-out;
+}
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+        max-width: 600px;
+    }
+}
